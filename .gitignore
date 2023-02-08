@@ -1,0 +1,35 @@
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# testing
+/coverage
+codecov
+
+# production
+/build
+/buildcache
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.default
+.env.binale-app
+npm-debug.log
+/.idea/
+/.vscode/
+.serviceAccountKey*.json
+*.sqlite
+stats.html
+
+/cypress/screenshots
+/cypress/videos
+
+/.firebase
+/.jscramblerrc
+/_test
+/.cache
+.eslintcache
